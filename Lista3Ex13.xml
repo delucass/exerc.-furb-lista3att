@@ -1,0 +1,42 @@
+
+<furbot>
+	<enunciado>
+	</enunciado>
+	<mundo>
+		<qtdadeLin>5</qtdadeLin>
+		<qtdadeCol>9</qtdadeCol>
+		<tamanhoCel>M</tamanhoCel>
+		<explodir>false</explodir>
+	</mundo>
+
+	<robo>
+		<random />
+		<explodir>false</explodir>
+	</robo>
+
+	<texto>
+		<valor>BRA</valor>
+		<randomX/>
+		<y>4</y>
+	</texto>
+
+	<texto>
+		<valor>AUS</valor>
+		<randomX/>
+		<y>4</y>
+	</texto>
+
+	<texto>
+		<valor>VEN</valor>
+		<randomX/>
+		<y>4</y>
+	</texto>
+
+	<texto>
+		<valor>FRA</valor>
+		<randomX/>
+		<y>4</y>
+	</texto>
+
+
+</furbot>

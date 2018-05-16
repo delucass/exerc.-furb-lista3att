@@ -1,0 +1,47 @@
+<furbot>
+    <enunciado>
+        Faça o robô percorrer todas as linhas do mundo no modo tradicional.&lt;br&gt;
+        Ao final de cada linha, deverá ser apresentado o resultado baseado nas operações descritas
+        abaixo.&lt;br&gt;
+        Sempre que iniciar uma nova linha, a variável de resultados deve ser zerada.&lt;br&gt;
+
+        &lt;br&gt;
+        O robô deverá encontrar o primeiro número, e após isso, a cada novo número deverá realizar&lt;br&gt;
+        operações descritas abaixo:&lt;br&gt;
+        &lt;br&gt;
+
+        - Se for 1: vai somar 10 no número;&lt;br&gt;
+        - Se for 2: vai subtrair 2 do primeiro;&lt;br&gt;
+        - Se for 3: vai multiplicar por 2;&lt;br&gt;
+        - Se for 4: verifica se o número é impar, se for: soma 2, senão diminui  5.&lt;br&gt;
+        &lt;br&gt;
+        Para a verificação da operação, é necessário criar um método utilizando switch.
+    </enunciado>
+    <mundo>
+        <qtdadeLin>3</qtdadeLin>
+        <qtdadeCol>8</qtdadeCol>
+        <explodir>true</explodir>
+    </mundo>
+    <robo>
+        <x>0</x>
+        <y>0</y>
+    </robo>
+    <numero qtdade="4">
+        <y>0</y>
+        <randomX limiteInf="1" limiteSup="6"/>
+        <valor randomInf="1" randomSup="4"/>
+        <bloqueado>false</bloqueado>
+    </numero>
+    <numero qtdade="4">
+        <y>1</y>
+        <randomX limiteInf="1" limiteSup="6"/>
+        <valor randomInf="1" randomSup="4"/>
+        <bloqueado>false</bloqueado>
+    </numero>
+    <numero qtdade="4">
+        <y>2</y>
+        <randomX limiteInf="1" limiteSup="6"/>
+        <valor randomInf="1" randomSup="4"/>
+        <bloqueado>false</bloqueado>
+    </numero>
+</furbot>

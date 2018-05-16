@@ -1,0 +1,25 @@
+<furbot>
+	<enunciado>
+	Faça o robô percorrer o mapa no modo tradicional e &lt;br&gt;
+	sempre que encontrar um número, verifique em qual grupo de valores &lt;br&gt;
+	abaixo que o número se encontra e imprima o número e o grupo.  &lt;br&gt;
+	 &lt;br&gt;
+	No final, é necessário apresentar a quantidade total de números por grupo, &lt;br&gt;
+	e a porcentagem de cada grupo em relação ao total.  &lt;br&gt;
+	
+	</enunciado>
+	<mundo>
+		<qtdadeLin>8</qtdadeLin>
+		<qtdadeCol>8</qtdadeCol>
+		<explodir>true</explodir>
+	</mundo>
+	<robo>
+		<random />
+	</robo>
+	<numero qtdade="30">
+		<random/>
+		<valor randomInf="1" randomSup="25" />
+		<bloqueado>false</bloqueado>
+	</numero>
+
+</furbot>

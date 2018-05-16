@@ -1,0 +1,35 @@
+<furbot>
+	<enunciado>
+	</enunciado>
+	
+	<mundo>
+		<qtdadeLin>8</qtdadeLin>
+		<qtdadeCol>8</qtdadeCol>
+		<explodir>true</explodir>
+	</mundo>
+	
+	<robo>
+		<x>0</x>
+		<y>0</y>
+	</robo>
+
+	<booleano qtdade = "12">
+		<valor random="true"/>
+		<random/>
+	</booleano>
+	
+	<numero qtdade = "12">
+		<valor randomInf="1"/>
+		<random/>
+	</numero>
+	
+	<objeto class="br.furb.furbot.Alien" qtdade = "12">
+		<random/>
+		<bloqueado>false</bloqueado>
+	</objeto>
+
+	<numero class="br.furb.furbot.Tesouro" qtdade = "12">
+		<valor randomInf="1"/>
+		<random/>
+	</numero>
+</furbot>

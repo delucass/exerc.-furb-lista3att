@@ -1,0 +1,52 @@
+<furbot>
+
+	<enunciado>
+
+	</enunciado>
+	<mundo>
+		<qtdadeLin>3</qtdadeLin>
+		<qtdadeCol>3</qtdadeCol>
+		<explodir>true</explodir>
+	</mundo>
+
+
+	<robo>
+		<random />
+	</robo>
+
+	<numero>
+		<valor randomInf="1" />
+		<x>0</x>
+		<y>0</y>
+	</numero>
+	<numero>
+		<valor randomInf="1" />
+		<x>1</x>
+		<y>0</y>
+	</numero>
+
+
+	<numero>
+		<valor randomInf="1" />
+		<x>0</x>
+		<y>1</y>
+	</numero>
+	<numero>
+		<valor randomInf="1" />
+		<x>1</x>
+		<y>1</y>
+	</numero>
+
+	<numero>
+		<valor randomInf="1" />
+		<x>0</x>
+		<y>2</y>
+	</numero>
+	<numero>
+		<valor randomInf="1" />
+		<x>1</x>
+		<y>2</y>
+	</numero>
+
+
+</furbot>

@@ -1,0 +1,50 @@
+<furbot>
+    <enunciado>
+
+        Faça o robô ir até o canto superior esquerdo. A partir disso, o robô deverá&lt;br&gt;
+        andar pelas laterais do mundo. Sempre que ele percorrer uma linha ou coluna por completo,&lt;br&gt;
+        deverá ser apresentado a soma total desta linha ou coluna e também a média.&lt;br&gt;
+        &lt;br&gt;
+        Para isso, é necessário criar um método que receberá uma direção como parâmetro. &lt;br&gt;
+        Esse método fará o robô andar até o final da linha/coluna na direção informada.&lt;br&gt;
+
+    </enunciado>
+    <mundo>
+        <qtdadeLin>8</qtdadeLin>
+        <qtdadeCol>8</qtdadeCol>
+        <explodir>true</explodir>
+    </mundo>
+    <robo>
+        <random/>
+    </robo>
+    <numero qtdade="4">
+        <y>0</y>
+        <randomX limiteInf="1" limiteSup="8"/>
+        <valor randomInf="1" randomSup="50"/>
+        <bloqueado>false</bloqueado>
+    </numero>
+
+    <numero qtdade="4">
+        <y>7</y>
+        <randomX limiteInf="1" limiteSup="8"/>
+        <valor randomInf="1" randomSup="50"/>
+        <bloqueado>false</bloqueado>
+    </numero>
+
+    <numero qtdade="4">
+        <x>0</x>
+        <randomY limiteInf="1" limiteSup="8"/>
+        <valor randomInf="1" randomSup="50"/>
+        <bloqueado>false</bloqueado>
+    </numero>
+
+    <numero qtdade="4">
+        <x>7</x>
+        <randomY limiteInf="1" limiteSup="8"/>
+        <valor randomInf="1" randomSup="50"/>
+        <bloqueado>false</bloqueado>
+    </numero>
+
+
+
+</furbot>

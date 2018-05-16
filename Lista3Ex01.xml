@@ -1,0 +1,26 @@
+<furbot>
+	<enunciado>
+	O robô passeia pelo modo tradicional. Em cada linha ele soma os &lt;br&gt; 
+	valores dos números.&lt;br&gt;
+	No final ele precisa falar qual foi a linha que teve a maior soma.&lt;br&gt;
+	&lt;br&gt; 
+	Atenção: não podem ser utilizados atributos. Somente variáveis locais. 
+	</enunciado>
+	
+	<mundo>
+		<qtdadeLin>8</qtdadeLin>
+		<qtdadeCol>8</qtdadeCol>
+		<explodir>true</explodir>
+	</mundo>
+	
+	<robo>
+		<x>0</x>
+		<y>0</y>
+	</robo>
+
+	<numero qtdade = "40">
+		<valor randomInf="1"/>
+		<random/>
+	</numero>
+	
+</furbot>

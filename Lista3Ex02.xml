@@ -1,0 +1,31 @@
+﻿<furbot>
+	<enunciado>
+	Faça o passeio tradicional do robô. Enquanto caminha, ele vai executando operações sobre &lt;br&gt; 
+        um valor que se acumula. Esse valor começa com zero. Quando o robô encontra um número,&lt;br&gt; 
+        ele deve diminuir do acumulador esse valor. Porém, se o acumulador for menor ou igual a &lt;br&gt;
+        zero, então o acumulador recebe o valor do número que encontrou. Quando encontra um alien, &lt;br&gt;
+        ele deve dobrar o valor do acumulador. No final ele fala o resultado do acumulador. &lt;br&gt;
+        Atenção: não podem existir atributos.&lt;br&gt;
+	</enunciado>
+	
+	<mundo>
+		<qtdadeLin>4</qtdadeLin>
+		<qtdadeCol>4</qtdadeCol>
+		<explodir>true</explodir>
+	</mundo>
+	
+	<robo>
+		<x>0</x>
+		<y>0</y>
+	</robo>
+
+	<numero qtdade = "8">
+		<valor randomInf="1"/>
+		<random/>
+	</numero>
+	
+	<objeto class="br.furb.furbot.Alien" qtdade = "5">
+		<random/>
+		<bloqueado>false</bloqueado>
+	</objeto>
+</furbot>
